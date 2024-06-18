@@ -43,5 +43,5 @@ jobs:
         run: |
           aws deploy create-deployment \
             --application-name apidemo \
-            --deployment-group-name apidemo-group-name \
+            --deployment-group-name apidemo-group \
             --s3-location bucket=ks-build-files,key=deployment.zip,bundleType=zip
